@@ -1,4 +1,4 @@
-# SDE_Importance_Sampling
+# DynamicLinearMap
 
 Test_Samplers will run and save a batch (of the chaotic pole reversal ex.) as a .mat file
 
