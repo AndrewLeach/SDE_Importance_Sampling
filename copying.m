@@ -1,12 +1,10 @@
-%% This file is part of [put name here].  This code accompanies
-%% the paper [put title and authors + link to arxiv].
-%% 
-%% Copyright (C) 2017 by Andrew Leach
-%% <more-permanent-email>
-%% 
-%% [I'm ok with other licenses.  GPL2 is just to get things
-%% going.  -KL]
-%% 
+%% This file is part of SDE_Importance_Sampling.  This code
+%% accompanies the paper "Symmetrized importance samplers
+%% for stochastic differential equations" by Andrew Leach,
+%% Kevin K Lin, and Matthias Morzfeld.
+
+%% Copyright (C) 2017 by Andrew Leach <imaleach@gmail.com>.
+
 %% This program is free software; you can redistribute
 %% it and/or modify it under the terms of the GNU
 %% General Public License as published by the Free
