@@ -14,7 +14,7 @@ foreach (@ARGV) {
     print "## processing $_\n";
     $orig = `cat $_`;
     open(FOUT, ">$_");
-    print FOUT "%% $_\n\n";
+    print FOUT "%% $_\n\n";
     print FOUT "$copying\n";
     print FOUT "$orig";
     close(FOUT);
