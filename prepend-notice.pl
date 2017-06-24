@@ -13,6 +13,10 @@ $copying = `cat $copying_src`;
 foreach (@ARGV) {
     print "## processing $_\n";
     $orig = `cat $_`;
+
+    ## get rid of all CRs
+    $orig =~ s/\r//gs;
+
     open(FOUT, ">$_");
     print FOUT "%% $_\n\n";
     print FOUT "$copying\n";
