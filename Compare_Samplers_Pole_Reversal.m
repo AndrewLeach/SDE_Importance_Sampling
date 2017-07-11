@@ -3,7 +3,9 @@
 %% This file is part of SDE_Importance_Sampling.  This code
 %% accompanies the paper "Symmetrized importance samplers
 %% for stochastic differential equations" by Andrew Leach,
-%% Kevin K Lin, and Matthias Morzfeld.
+%% Kevin K Lin, and Matthias Morzfeld.  A preprint version
+%% of the paper can be found at
+%% http://arxiv.org/abs/1707.02695 .
 
 %% Copyright (C) 2017 by Andrew Leach <imaleach@gmail.com>.
 
