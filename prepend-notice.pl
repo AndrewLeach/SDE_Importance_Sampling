@@ -14,6 +14,9 @@ foreach (@ARGV) {
     print "## processing $_\n";
     $orig = `cat $_`;
 
+    ## get rid of old notice
+    $orig =~ s/^.*?\n([^%\n])/$1/gs;
+
     ## get rid of all CRs
     $orig =~ s/\r//gs;
 
